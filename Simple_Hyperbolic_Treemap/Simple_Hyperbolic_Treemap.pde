@@ -3,8 +3,8 @@ float dispScale = 500;
 Node node;
 
 void setup(){
-  fullScreen();
-  //size(1000, 1000);
+  //fullScreen();
+  size(1000, 1000);
   textSize(dispScale/10);
   translate(width/2, height/2);
   node = new Node();
